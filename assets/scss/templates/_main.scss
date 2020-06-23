@@ -232,6 +232,7 @@
   h5,
   h6 {
     margin-bottom: 10px;
+    margin-top: 30px;
   }
 
   ol {
@@ -277,11 +278,13 @@
     }
 
     thead {
-      background: darken($color: $gray, $amount: 2);
+//      background: darken($color: $gray, $amount: 2);
+      background: darken($color: $lightlime, $amount: 2);
     }
 
     tbody {
-      background: $gray;
+//      background: $gray;
+      background: $lightlime;
 
       td {
         text-align: left !important;
@@ -305,7 +308,8 @@
 
   pre {
     padding: 10px 20px;
-    background: $gray;
+//    background: $gray;
+    background: $lightlime;
 
     code {
       border: 0;
@@ -324,10 +328,11 @@
 
   code {
     padding: 3px 5px;
-    background: $gray;
+//    background: $gray;
+    background: $lightlime;
     border: 1px solid $border-color;
     border-radius: 3px;
-    color: $text-color-dark;
+//    color: $text-color-dark;
   }
 
 }
