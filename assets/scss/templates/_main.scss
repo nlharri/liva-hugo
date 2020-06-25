@@ -157,7 +157,7 @@ footer {
       color: $text-color;
 
       &:hover {
-        color: $primary-color;
+        color: $link-color;
       }
     }
   }
@@ -324,7 +324,7 @@ footer {
   }
 
   a {
-    color: $primary-color;
+    color: $link-color;
 
     &:hover {
       text-decoration: underline;
