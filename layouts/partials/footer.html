@@ -103,3 +103,6 @@
   ga('create', '{{ .Site.Params.googleAnalitycsID }}', 'auto');
   ga('send', 'pageview');
 </script>
+
+{{ if .Params.mathjax}}{{ partial "mathjax.html" . }}{{ end }}
+{{ if .Params.mermaid}}{{ partial "mermaid.html" . }}{{ end }}
